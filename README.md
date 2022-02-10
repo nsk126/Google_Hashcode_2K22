@@ -13,7 +13,7 @@ _Solves all 5 test cases with a total score of 2500_
 5. Elaborate => 1017
 ```
 g++ OnePizza.cpp -o build/OnePizza
-build/Onepizza < tests/{test_case} > op.txt
+./build/Onepizza < tests/{test_case} > op.txt
 ``` 
 `op.txt` will contain the req output on execution
 
