@@ -10,8 +10,8 @@ The file `OnePizza.cpp` has the C++ code to solve the practice problem of Google
 5. Elaborate => 1017
 ```
 g++ OnePizza.cpp -o build/OnePizza
-build/Onepizza < tests/{test_case} > op.txt_
+build/Onepizza < tests/{test_case} > op.txt
 ``` 
-`op.txt` contains the req output
+`op.txt` will contain the req output on execution
 
 Feel free to raise an issue if you find a better solution.
