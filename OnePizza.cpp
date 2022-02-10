@@ -7,8 +7,6 @@
 #define printrix(X,Y) X <<": {" << Y <<"}\n"
 using namespace std;
 
-void Print_vect(vector<int> vect);
-void vect_finger(vector<int> vect, int y);
 int main(int argc, char const *argv[])
 {
     // # of potential clients
