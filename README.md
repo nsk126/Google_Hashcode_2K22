@@ -1,8 +1,11 @@
 ## Hashcode 2022
 
-(Webpage)[https://codingcompetitions.withgoogle.com/hashcode/]
+[Webpage](https://codingcompetitions.withgoogle.com/hashcode/)
 
-The file `OnePizza.cpp` has the C++ code to solve the practice problem of Google Hashcode. _Solves all 5 test cases with a total score of 2500_
+The file `OnePizza.cpp` has the C++ code to solve the practice problem of Google Hashcode. 
+
+_Solves all 5 test cases with a total score of 2500_
+
 1. An Example => 2
 2. Basic => 5
 3. Coarse => 3
