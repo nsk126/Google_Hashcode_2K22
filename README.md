@@ -1,6 +1,6 @@
 ## Hashcode 2022
 
-[Webpage](https://codingcompetitions.withgoogle.com/hashcode/)
+[Google Hashcode](https://codingcompetitions.withgoogle.com/hashcode/)
 
 The file `OnePizza.cpp` has the C++ code to solve the practice problem of Google Hashcode. 
 
@@ -15,6 +15,14 @@ _Solves all 5 test cases with a total score of 2500_
 g++ OnePizza.cpp -o build/OnePizza
 ./build/Onepizza < tests/{test_case} > op.txt
 ``` 
+#### OR
+```
+//to compile file and run testcases
+make all 
+//to delete all build files and outputs
+make clean 
+```
+
 `op.txt` will contain the req output on execution
 
 Feel free to raise an issue if you find a better solution.
