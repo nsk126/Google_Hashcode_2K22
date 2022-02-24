@@ -26,16 +26,18 @@ OP_5 = op5.txt
 all: $(TARGET)
 $(TARGET): $(TARGET).cpp
 	$(CC) $(CFLAGS) -o build/$(TARGET) $(TARGET).cpp
-	./build/$(TARGET) < tests/${TEST_FILE_1} > op/$(OP_1)
-	./build/$(TARGET) < tests/${TEST_FILE_2} > op/$(OP_2)
-	./build/$(TARGET) < tests/${TEST_FILE_3} > op/$(OP_3)
-	./build/$(TARGET) < tests/${TEST_FILE_4} > op/$(OP_4)
-	./build/$(TARGET) < tests/${TEST_FILE_5} > op/$(OP_5)
+	./build/$(TARGET) < OnePizza/tests/${TEST_FILE_1} > op/$(OP_1)
+	./build/$(TARGET) < OnePizza/tests/${TEST_FILE_2} > op/$(OP_2)
+	./build/$(TARGET) < OnePizza/tests/${TEST_FILE_3} > op/$(OP_3)
+	./build/$(TARGET) < OnePizza/tests/${TEST_FILE_4} > op/$(OP_4)
+	./build/$(TARGET) < OnePizza/tests/${TEST_FILE_5} > op/$(OP_5)
 	
 mnt:
-	$(CC) $(CFLAGS) MnT.cpp -o build/MnT -lpthread
-	./build/MnT
+	$(CC) $(CFLAGS) MnT.cpp -o build/MnT
+	./build/MnT < MnT/tests/a_an_example.in.txt
+
 clean:
 	$(RM) build/$(TARGET)
-	$(RM) op/*
+	$(RM) OnePizza/op/*
+	
 	
