@@ -32,6 +32,9 @@ $(TARGET): $(TARGET).cpp
 	./build/$(TARGET) < tests/${TEST_FILE_4} > op/$(OP_4)
 	./build/$(TARGET) < tests/${TEST_FILE_5} > op/$(OP_5)
 	
+mnt:
+	$(CC) $(CFLAGS) MnT.cpp -o build/MnT -lpthread
+	./build/MnT
 clean:
 	$(RM) build/$(TARGET)
 	$(RM) op/*
